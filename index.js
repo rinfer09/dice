@@ -18,7 +18,7 @@ document.addEventListener("keydown", (e) => {
 
         setTimeout(() => {
             clearInterval(interval)
-            var quotes = ""
+            let quotes = ""
             if (player1Number > player2Number){
                 quotes = "Player 1 Wins!";
             }else if (player1Number < player2Number){
