@@ -7,8 +7,8 @@ document.addEventListener("keydown", (e) => {
             player1Number = Math.floor(Math.random() * 6) + 1;
             player2Number = Math.floor(Math.random() * 6) + 1;
 
-            player1Dice = "dice" + player1Number + ".png";
-            player2Dice = "dice" + player2Number + ".png";
+            const player1Dice = "dice" + player1Number + ".png";
+            const player2Dice = "dice" + player2Number + ".png";
 
             document.querySelector(".img1").setAttribute("src", "images/" + player1Dice);
             document.querySelector(".img2").setAttribute("src", "images/" + player2Dice);
