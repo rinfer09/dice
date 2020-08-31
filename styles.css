@@ -1,0 +1,46 @@
+.container {
+  width: 70%;
+  height: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  margin: 10px 30px 5px;
+  text-align: center;
+  display: inline-block;
+
+}
+
+.quotes {
+  font-size: 50px;
+}
+
+body {
+  background-color: #f1f3de;
+  font-family: 'Architects Daughter', cursive;
+  color: #eb8f8f;
+}
+
+.background-change {
+  background-color: #eccccc;
+}
+
+h1 {
+  margin: 20px;
+  font-size: 100px;  
+}
+
+p {
+  font-size: 30px;
+}
+
+img {
+  width: 200px;
+}
+
+footer {
+  margin-top: 100px;
+  font-size: 30px;
+  text-align: center;
+}
